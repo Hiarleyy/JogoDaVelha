@@ -1,0 +1,78 @@
+body {
+    background-color: #2D033B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.game {
+    margin-left: 10em;
+    margin-right: px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    height: 25em;
+    max-width: 25em;
+    margin: 0 auto;
+}
+
+.game button {
+    color: #03C988;
+    border-radius: 5px;
+    margin: 3px;
+    border-style: none;
+    background-color: #1f0329;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    gap: 5px
+}
+
+.titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 5em;
+    border-radius: 10px;
+    background-color: #1f0329;
+}
+
+.Player-container {
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    background-color: #1f0329;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #03C988;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 15px;
+    color: #03C988;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    align-items: center;
+}
+
+.info>a {
+    text-decoration: none;
+    color: #03C988;
+    font-size: 25px;
+}
